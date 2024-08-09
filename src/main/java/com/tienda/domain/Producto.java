@@ -3,6 +3,7 @@ package com.tienda.domain;
 import lombok.Data;
 import java.io.Serializable;
 import jakarta.persistence.*;
+import java.util.List;
 
 @Data
 @Entity
@@ -37,5 +38,7 @@ public class Producto implements Serializable {
         this.descripcion = producto;
         this.activo = activo;
     }
+    
+
 
 }
